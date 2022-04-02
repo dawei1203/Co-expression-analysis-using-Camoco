@@ -3,7 +3,7 @@ Co-expression analysis using Camoco
 
 Camoco(Schaefer et al., 2018) was used to prioritize causal RSA-related genes in maize. The GWAS locus information was derived from the genome-wide association analysis, and density metrics were used to perform the co-expression network analysis. The candidate window size was 50 kb, and the maximum number of flanking genes was two. The candidate windows were calculated both upstream and downstream of the input SNPs. 
 
-#Building RefGen Object
+#Building RefGen Object (ZmB73_5b_FGS.gff, this file can be downloaded from here (https://pan.baidu.com/s/1ZZpsXj41_9YsyamnQSZrew) using the extraction code (xaj9)).
 
 $ camoco build-refgen \
  ZmB73_5b_FGS.gff \
